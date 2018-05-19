@@ -1,0 +1,31 @@
+ .menu{
+  box-shadow: 5px 5px 5px black;
+  width: 100%;
+  font-family: Oxygen;
+ }
+
+ .menu li {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+ }
+
+ .menu ul{
+   margin-left: 60%;
+ }
+
+ .menu a {
+   text-decoration: none;
+   color: #484FDB;
+ }
+
+ .menu a:hover {
+   color: #FCD02C;
+ }
+
+ .menu a.active {
+   color: #FCD02C;
+ }
