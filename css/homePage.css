@@ -26,16 +26,17 @@ body{
 #yummicity{
   grid-area: yummicity;
   font-family: Pacifico;
-  font-size: 60px;
+  font-size: 70px;
   width:315.1px;
   height:61.99px;
   color: #484FDB;
-  margin-top: 50%;
+  margin-top: 40%;
 }
 
 #phrase{
   grid-area:phrase;
   font-family: Roboto Slab;
+  font-size:18px;
   color: #FCD02C;
   margin-left:30%;
 }
@@ -65,6 +66,7 @@ body{
 
 .userExperience p {
     margin-left: 25%;
+    font-size: 18px;
 }
 
 .container{
@@ -108,4 +110,5 @@ body{
 }
 .userExperience i , p{
   color:white;
+
 }

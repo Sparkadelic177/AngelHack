@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>YummiCity</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="../css/profile.css" />
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link href="../fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet">
+</head>
+<body id="profile">
+    <div class="menu">
+        <ul class = "header">
+          <li><a class="active" href="Home">Home</a></li>
+          <li><a href="About">About</a></li>
+          <li><a href="Blog">Blog</a></li>
+          <li><a href="Conact">Contact</a></li>
+          <li><a href="Search"><i class="fas fa-search"></i></a></li>
+          <li><a href="User"><i class="fas fa-user-circle"></i></a></li>
+        </ul>
+    </div>
+
+    <div id="profile-sidebar" class="left-side">
+        <div class="profile-picture"></div>
+        <div class="profile-sidebar-item" id = "graph-tab"><span class="profile-sidebar-item-title">History</span></div>
+        <div class="profile-sidebar-item" id="recipe-tab"><span class="profile-sidebar-item-title">Recipes</span></div>
+        <div class="profile-sidebar-item" id="settings-tab"><span class="profile-sidebar-item-title">Setting</spam></div>
+        <div class="profile-sidebar-item" id="signOut-tab"><span class="profile-sidebar-item-title">Sign Out</span></div>
+    </div>
+
+    <div id="profile-info" class="info">
+        <div class="history">
+          <canvas id="myChart" width="400" height="200" ></canvas>
+        </div>
+
+        <div class="recipes">
+            <div class=card>
+
+            </div>
+
+            <div class="card">
+              
+            </div>
+        </div>
+
+        <div class="settings">
+          <div class="settings-card">
+
+          </div>
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="../js/profile.js"></script>
+</body>
+</html>

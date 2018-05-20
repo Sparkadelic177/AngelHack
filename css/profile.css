@@ -2,12 +2,25 @@ html {
     margin:0;
     padding: 0;
 }
+.menu{
+  grid-area: nav;
+  height: auto;
+}
+.left-side{
+  grid-area:left-side;
+}
+.info{
+  grid-area:info
+}
+
 #profile {
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    border: 1px solid black;    
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas:
+    "nav nav nav nav "
+    "left-side info info info";
     width: 100vw;
     height: 100vh;
     font-family: 'Roboto Slab', serif;
@@ -35,5 +48,31 @@ html {
 }
 
 #profile-info {
+    display: grid;
     border: 1px solid black;
+}
+
+.history{
+
+}
+
+.recipes{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 10%;
+  opacity: 0;
+}
+
+.settings{
+  opacity: 0;
+}
+
+.card{
+  border: 2px solid black;
+  border-radius: 30%;
+}
+
+#canvas{
+  grid-area:canvas;
+  border: 1px solid black;
 }

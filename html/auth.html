@@ -4,9 +4,21 @@
     <meta charset="utf-8" />
     <title>YummiCity</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <link rel="stylesheet" href="auth.css" />
+    <link rel="stylesheet" href="../css/auth.css" />
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link href="../fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet">
 </head>
 <body id="auth">
+    <div class="menu">
+        <ul class = "header">
+          <li><a class="active" href="yummicityHome.html">Home</a></li>
+          <li><a href="About">About</a></li>
+          <li><a href="Blog">Blog</a></li>
+          <li><a href="Conact">Contact</a></li>
+          <li><a href="Search"><i class="fas fa-search"></i></a></li>
+          <li><a href="auth.html"><i class="fas fa-user-circle"></i></a></li>
+        </ul>
+    </div>
     <div id="auth-form">
         <h2 id="auth-form-account">Account</h2>
 
@@ -21,7 +33,7 @@
         </div>
 
         <div id="auth-form-action">
-            <div class="auth-form-action-button" id="login"><span class="auth-text">LogIn</span></div>
+            <div class="auth-form-action-button" id="login"><span class="auth-text"> <a href="profile.html">LogIn</a></span></div>
             <div class="auth-form-action-button" id="signup"><span class="auth-text">SignUp</span></div>
         </div>
 
@@ -34,6 +46,6 @@
         firebase.initializeApp(config);
     </script>
 
-    <script src="auth.js"></script>
+    <script src="../js/auth.js"></script>
 </body>
 </html>

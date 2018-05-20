@@ -1,5 +1,5 @@
  .menu{
-  box-shadow: 5px 5px 5px black;
+  box-shadow: 2px 2px 2px black;
   width: 100%;
   font-family: Oxygen;
  }
@@ -10,11 +10,11 @@
    text-align: center;
    padding: 14px 16px;
    text-decoration: none;
-   font-size: 17px;
+   font-size: 18px;
  }
 
  .menu ul{
-   margin-left: 60%;
+   margin-left: 55%;
  }
 
  .menu a {

@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    grid-template-rows: 1fr;
+    grid-template-rows: 10% 1fr;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -17,6 +17,7 @@
     width:30vw;
     height:50vh;
     border: 2px solid black;
+    margin-top: 10%;
 }
 
 #auth-form-action{
@@ -45,4 +46,8 @@
 
 .auth-text {
     margin: 20% 25%;
+}
+
+.menu i {
+  font-size: 20px;
 }
