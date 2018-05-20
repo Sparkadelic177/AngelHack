@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>YummiCity</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="auth.css" />
+</head>
+<body id="auth">
+    <div id="auth-form">
+        <h2 id="auth-form-account">Account</h2>
+
+        <div id="auth-form-value">
+            <h3>E-mail</h3>
+            <input type="text" id="email" class="auth-form-input"/>
+        </div>
+
+        <div id="auth-form-value">
+            <h3>Password</h3>
+            <input type="password" id="password" class="auth-form-input"/>
+        </div>
+
+        <div id="auth-form-action">
+            <div class="auth-form-action-button" id="login"><span class="auth-text">LogIn</span></div>
+            <div class="auth-form-action-button" id="signup"><span class="auth-text">SignUp</span></div>
+        </div>
+
+    </div>
+
+    <!-- FIREBASE -->
+    <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
+    <script>
+        import config from './firebase.config.js';
+        firebase.initializeApp(config);
+    </script>
+
+    <script src="auth.js"></script>
+</body>
+</html>

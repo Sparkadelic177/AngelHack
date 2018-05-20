@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>YummiCity</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="maps.css" rel="stylesheet">
+
+</head>
+
+<body id="maps-body">
+  
+  <div id="map"></div>
+  <div id="maps-body-info">
+    <div>
+        <h3 id="maps-body-info-name" class="maps-body-info-title">Select Your Supermarket</h3>
+        <h4 id="maps-body-info-address" class="maps-body-info-title"></h4>
+        <h5 id="maps-body-info-desc" class="maps-body-info-title"></h5>
+    </div>
+    <div id="maps-body-info-confirm" class="hidden">Continue</div>
+  </div>
+  
+  
+  <script src="maps.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGgczilcQBwQONUfq-OM4qzw6rkxPc2_o&callback=initMap"
+  async defer></script>
+</body>
+
+
+</html>

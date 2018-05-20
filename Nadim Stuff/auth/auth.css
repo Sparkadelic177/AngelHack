@@ -1,0 +1,48 @@
+#auth {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-template-rows: 1fr;
+    font-family: 'Roboto Slab', serif;
+}
+
+#auth-form {
+    display: grid;
+    justify-items: center;
+    color: white;
+    grid-template-rows: .5fr 1fr 1fr 1fr;
+    grid-gap: 1%;
+    background-color: #FCD02C;
+    border-radius: 50px;
+    width:30vw;
+    height:50vh;
+    border: 2px solid black;
+}
+
+#auth-form-action{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.auth-form-input{
+    border-radius: 50px;
+    border:0px;
+    font-size:1em;
+    padding:3%;
+    outline:none;
+    box-shadow: 1px 1px 2px black;
+}
+
+.auth-form-action-button{
+    padding:3%;
+    justify-self: center;
+    text-align: center;
+    margin: 10%;
+    color:rgba(0, 0, 0, .57);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1)
+}
+
+.auth-text {
+    margin: 20% 25%;
+}
